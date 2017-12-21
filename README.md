@@ -76,7 +76,8 @@ then open http://<hostname_or_ip>:5601, kibana UI will load
 [example code in java](https://github.com/liyancode/KafkaToElasticToKibana/blob/master/example/ProducerClient.java)   
 
 ## Step 5. Start kafka-sink-elastic connector
-[connect ref](https://docs.confluent.io/current/connect/managing.html)
+[connect ref](https://docs.confluent.io/current/connect/managing.html)  
+
 create connector config file named 'es_kfkconntest' under '~/confluent-4.0.0/etc/kafka-connect-elasticsearch/'
 ```
 $ cd ~/confluent-4.0.0/etc/kafka-connect-elasticsearch/
