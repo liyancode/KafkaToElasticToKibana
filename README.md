@@ -73,7 +73,7 @@ $ ./kibana -H 0.0.0.0
 then open http://<hostname_or_ip>:5601, kibana UI will load
 
 ## Step 4. Kafka producer to send message
-[example code in java](#P)   
+[example code in java](https://github.com/liyancode/KafkaToElasticToKibana/blob/master/example/ProducerClient.java)   
 
 ## Step 5. Start kafka-sink-elastic connector
 [connect ref](https://docs.confluent.io/current/connect/managing.html)
