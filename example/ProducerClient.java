@@ -11,10 +11,10 @@ public class ProducerClient {
     public static void main(String args[]){
 
         Properties props = new Properties();
-        props.put("bootstrap.servers", "10.64.210.60:9092");
+        props.put("bootstrap.servers", "localhost:9092"); //kafka server localhost or your server
         props.put("key.serializer", "io.confluent.kafka.serializers.KafkaAvroSerializer");
         props.put("value.serializer", "io.confluent.kafka.serializers.KafkaAvroSerializer");
-        props.put("schema.registry.url", "http://10.64.210.60:8081");
+        props.put("schema.registry.url", "http://localhost:8081");// registery server
         props.put("value.schema", "{\"type\":\"record\",\"name\":\"kafkaconnecttestrecord\",\"fields\":[{\"name\":\"sname\",\"type\":\"string\"},{\"name\":\"sage\",\"type\":\"int\"}]}");
 
         KafkaProducer producer = new KafkaProducer(props);
