@@ -105,6 +105,7 @@ $ curl localhost:8083/connectors/es_kfkconntest/status
 ```
 
 ## Step 6. Craete index in Kibana UI
-Screen Shot 2017-12-21 at 3.26.57 PM.png
-Screen Shot 2017-12-21 at 3.27.06 PM.png
-Screen Shot 2017-12-21 at 3.27.26 PM.png
+[img](https://github.com/liyancode/KafkaToElasticToKibana/blob/master/Screen%20Shot%202017-12-21%20at%203.26.57%20PM.png)
+[img](https://github.com/liyancode/KafkaToElasticToKibana/blob/master/Screen%20Shot%202017-12-21%20at%203.27.06%20PM.png)
+then data
+[img](https://github.com/liyancode/KafkaToElasticToKibana/blob/master/Screen%20Shot%202017-12-21%20at%203.27.26%20PM.png)
