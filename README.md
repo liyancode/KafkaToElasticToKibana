@@ -110,3 +110,7 @@ $ curl localhost:8083/connectors/es_kfkconntest/status
 ![img](https://github.com/liyancode/KafkaToElasticToKibana/blob/master/Screen%20Shot%202017-12-21%20at%203.27.06%20PM.png)
 then data
 ![img](https://github.com/liyancode/KafkaToElasticToKibana/blob/master/Screen%20Shot%202017-12-21%20at%203.27.26%20PM.png)
+
+
+##Notes
+*if confluent is dead, all connectors disappered(not sure why),but kafka topics are still there and after restarted kafka they are normal. So I recreated elastic connectors like what I do upon and check they are in good status, back to nomal.*
